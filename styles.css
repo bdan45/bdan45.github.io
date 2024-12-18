@@ -1,0 +1,36 @@
+*{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    text-align: right;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+   
+}
+
+#logo{
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 250px;
+}
+
+.navlist{
+    text-decoration: underline;
+    display: flex;
+    list-style-type: none;
+}
+
+.navlist li{
+    margin-left: 20px;
+}
+    
